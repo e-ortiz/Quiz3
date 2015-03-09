@@ -52,7 +52,6 @@ public abstract class Triangle extends GeometricObject {
 	 
 	 // Main Method
 	 public static void main(String[] args){
-		 //new Triangle(3, 3, 5);
 		 System.out.println();
 	 }
 	 
