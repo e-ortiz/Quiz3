@@ -8,8 +8,8 @@ public abstract class Triangle extends GeometricObject {
 	// Default Constructor
 	public Triangle() { }
 	
-	// 
-	public Triangle(int side1, int side2, int side3) {
+	//  
+	public Triangle(double side1, double side2, double side3) {
 		this.side1 = side1;
 		this.side2 = side2;
 		this.side3 = side3;
@@ -52,6 +52,7 @@ public abstract class Triangle extends GeometricObject {
 	 
 	 // Main Method
 	 public static void main(String[] args){
+		 //new Triangle(3, 3, 5);
 		 System.out.println();
 	 }
 	 
